@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>Registration</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    fieldset{
+        width: 400px;
+        background-color: #F8F1AE;
+        
+    }
+    form,div{ 
+        display: flex;
+        justify-content: center;
+    }
+
+
+</style>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form class="" action="/action_page.php">
+        <fieldset>
+            <legend>Personal Details</legend>
+                <table>
+                    <div class="">
+
+                   
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="firstname"></td> <br>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="firstname"></td>
+                    </tr>
+                    <tr>
+                        <td>Email Address:</td>
+                        <td><input type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gender">Gender:</label></td>
+                    <td> 
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                    </tr>
+                    </div>
+                </table>
+        </fieldset>
+    </form>
+
+        <form action="">
+            <fieldset>
+                <legend>City</legend>
+                <div class="">
+                    <label for="">City:</label>
+        <select name="" id="">
+            <option value="Amman">Amman</option>
+            <option value="Irbid">Irbid</option>
+            <option value="Ajloun">Ajloun</option>
+        </select>
+                </div>
+            
+
+        </fieldset>
+        </form>
+        <br>
+        <div class="">
+
+            <input class="submit" type="submit" value="Sign Up">
+        </div>
+
+</body>
+
+</html>
