@@ -1,0 +1,29 @@
+.container{
+    background-color: green;
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+}
+.div1, div, .div3, .div4 {
+    width: 90%;
+    height: 90%;
+    margin: 5% auto auto;
+    position:relative;
+    overflow: hidden;
+}
+.div1,.div3{
+    background-color: yellow;
+}
+div,.div4{
+    background-color: green;
+}
+
+p{
+
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top:40%;
+    font-size: 50px;
+}

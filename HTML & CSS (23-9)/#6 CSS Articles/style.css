@@ -1,0 +1,30 @@
+body {
+    background-color: #f3ecccdc;
+}
+article{
+    border: 3px solid black;
+    width: 60%;
+    background-color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.art2 {
+    border: 3px dashed black;
+
+}
+.art2 p {
+    border: 3px dashed red;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+    background-color:orange;
+}
+.quis {
+    background-color:yellow;
+}
+.art3 p , .art3 h3{
+    color: rgb(165, 75, 252);
+}
