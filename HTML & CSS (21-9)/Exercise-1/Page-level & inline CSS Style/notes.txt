@@ -1,4 +1,0 @@
-accept = pdf
-more 1 file
-multiple
-fildeset
