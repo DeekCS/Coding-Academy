@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    gap: 0.20rem;
+    margin: 16px;
+}
+
+.sub {
+    padding:5px;
+    background-color: grey;
+}
+
+
+.container>div {
+    background-color: lightgray;
+    padding: 0.5rem;
+}
+
+.two,
+.three,
+.nine,
+.twelve {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.25rem;
+}
+
+.six {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.25rem;
+}
+
+.seven {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0.25rem;
+}
+
